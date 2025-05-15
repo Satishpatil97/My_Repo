@@ -1,0 +1,21 @@
+
+
+strlen - length of a string
+
+
+
+
+
+
+strcat - concat second string into first
+
+strcmp - compare two strings - case considered
+
+
+strcpy - copy second string to first
+
+
+find out substring of a string
+
+
+

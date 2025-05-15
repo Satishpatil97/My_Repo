@@ -1,0 +1,30 @@
+how will you find out binary of 0.25?
+
+0.25 * 2  [ multiply by 2 because we have to find out binary ]
+
+	0.50			integer portion			fractional portion
+				     0					.50
+
+0.50 * 2
+	1.00			     1					.00
+
+
+now we have to stop multiplying as we have got .00 on the fractional side.
+
+But it is not necessary that you will always get .00 on the fractional side. In that case you can continue multiplication either fractional portion gets repeated or approx 8-9 times.
+
+Once multiplication is over , consider integer portion from top to bottom [ in case of int, we go from bottom to top and we do devision ]
+
+Hence in the above case binary for 0.25 is  .01   [ notice that we have derived it from top to bottom of integer portion ]
+
+So how will you check whether .01 is  the binary for 0.25 ?
+
+	0		1
+	2^-1		2^-2
+
+	0		1*(1/4)
+
+	So the answer is 0.25
+
+
+				

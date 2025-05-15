@@ -1,0 +1,6 @@
+can we have constructor inside abstract class?
+
+ans:- abstract class can have constructor. When will it get invoked ? ( because you cannot instantiate the abstract class )
+	Yes abstract class constructor will be invoked when we instantiate its child class.
+
+

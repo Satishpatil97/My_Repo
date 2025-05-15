@@ -1,0 +1,19 @@
+interface
+array of parent class 
+program to interface and program to implementation
+inheritance vs composition
+aggregation vs composition
+early binding vs late binding
+instanceof test
+static block in inheritance
+special.java
+This demo
+early binding in java
+Object class
+hashcode and equals contract
+String class
+String vs StringBuilder
+Some other programs
+Eclipse Debugging
+how to relate unrelated classes using interface
+

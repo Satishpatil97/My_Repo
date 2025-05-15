@@ -1,0 +1,20 @@
+1. What is Java  
+2. Where Java is used
+4. About java8 platform
+5. Difference between JDK_JRE_JVM
+6. Features of Java
+7. Types of Java Applications
+13. Variable and Datatypes in Java
+15. Unicode Character Info
+-Why Java is called as Platform
+-What is Internationalization
+-Variable and Datatypes in Java
+-Unicode Character Info
+-Source File Naming rules           TXT
+-Source File Declaration Rules     WRD
+-Sound Games as OOPS real time example
+-Sample program- how to compile and run on notepad+cmd
+-Native methods
+-Local member must be initialized before use
+--Java version codenames
+--How Java is Platform Independent

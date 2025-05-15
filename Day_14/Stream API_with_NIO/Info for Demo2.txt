@@ -1,0 +1,17 @@
+  stream.map(String::valueOf)
+		        .filter(path -> path.endsWith(".txt")).forEach(System.out::println);
+
+stream.map()
+	accepts "Function" as functional interface.
+
+		that's why map() can accept lambda or method reference.
+
+here we are passing "String::valueOf" that means 
+
+	inside map() method we are passing
+		implementation of "Function" which defines "apply(T t)" method which will 
+		apply "String.valueOf" on each string and return it.
+now using "filter(path -> path.endsWith(".txt"))" we create a new stream which contains only those names which ends with ".txt".
+
+after returning each and every string we display it using
+forEach(System.out::println) terminal operation.

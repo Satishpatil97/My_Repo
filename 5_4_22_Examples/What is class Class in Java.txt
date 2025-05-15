@@ -1,0 +1,129 @@
+what is class "Class" in java?
+
+	In java whenever any class gets loaded, it is represented by an instance of class "Class". This instance stores information about loaded class such as how many constructors,instance members, methods, their accessibility modifiers , arguments , return types etc.are there in the class.
+
+Where do we use this class "Class" in java programming?
+	ans:- we use class "Class" in Reflection API.
+
+e.g.
+
+case 1:
+
+public class Demo1
+{
+	public static void main(String args[])
+	{
+		S.o.p("Hello");
+	}
+}
+
+when we say 
+		java Demo1
+			a) Demo1 will get loaded 
+					instance of class "Class" will get created and it will store information of the loaded class (Demo1)
+			b) main function will be called
+
+
+
+case 2:
+
+public class Demo1
+{
+	public static void main(String args[])
+	{
+		S.o.p("Hello");
+	}
+}
+class A
+{
+	void disp1()
+	{
+		S.o.p("in disp1");
+	}
+	static void disp2()
+	{
+		S.o.p("in disp2");
+	}
+}
+
+		javac Demo1.java
+			Demo1.class
+			A.class
+
+		java Demo1
+			a) Demo1 will be loaded and class "Class" instance will be created to represent it.
+			b) main function will be invoked
+
+	[ here "A" class will not be loaded because we are not using it ]
+
+What do you mean by "using a class" ?
+	ans:- it means either you instantiate it or invoke any static member/member function of it.
+
+
+case 3:
+
+
+public class Demo1
+{
+	public static void main(String args[])
+	{
+		S.o.p("Hello");
+		A.disp2();
+	}
+}
+class A
+{
+	void disp1()
+	{
+		S.o.p("in disp1");
+	}
+	static void disp2()
+	{
+		S.o.p("in disp2");
+	}
+}
+
+		javac Demo1.java
+			Demo1.class
+			A.class
+
+		java Demo1
+			a) Demo1 will be loaded and class "Class" instance will be created to represent it.
+			b) main function will be invoked
+				the moment "A.disp2()" is invoked, class "A" will be loaded and one more instance of class "Class" will be created in order to represent class A.
+
+
+
+case 4:
+
+
+public class Demo1
+{
+	public static void main(String args[])
+	{
+		S.o.p("Hello");
+		A ob1=new A();
+	}
+}
+class A
+{
+	void disp1()
+	{
+		S.o.p("in disp1");
+	}
+	static void disp2()
+	{
+		S.o.p("in disp2");
+	}
+}
+
+		javac Demo1.java
+			Demo1.class
+			A.class
+
+		java Demo1
+			a) Demo1 will be loaded and class "Class" instance will be created to represent it.
+			b) main function will be invoked
+				the moment "A ob1=new A();" is encountered, class "A" will be loaded and one more instance of class "Class" will be created in order to represent class A.
+			c) instance of A will be created and it will be referred by "ob1"
+			d) default or no-arg constructor of class A will be invoked.

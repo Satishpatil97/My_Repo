@@ -1,0 +1,16 @@
+
+
+
+
+
+public static Stream<Path> find(Path start,
+                                int maxDepth,
+                                BiPredicate<Path,BasicFileAttributes> matcher,
+                                FileVisitOption... options)
+                         throws IOException
+
+
+    start - the starting file
+    maxDepth - the maximum number of directory levels to search
+    matcher - the function used to decide whether a file should be included in the returned stream
+    options - options to configure the traversal

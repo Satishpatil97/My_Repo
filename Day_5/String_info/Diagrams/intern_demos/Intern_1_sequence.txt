@@ -1,0 +1,7 @@
+1) String class instance is created inside heap (not inside pool).
+2) "s1" reference is created on the stack.
+3) "s1" refers to the instance created inside heap.
+4) "intern()" method is called on the String class instance.
+5) since there is no String class instance with the value "hello" inside String pool, it gets created.
+6) "s2" reference is created on the stack.
+7) "s2" refers to the instance inside String pool.

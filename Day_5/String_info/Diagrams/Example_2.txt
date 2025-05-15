@@ -1,0 +1,9 @@
+// what do you mean by String is mutable
+
+String s1="hello";
+
+S.o.p(s1);    //  hello
+
+s1.concat(" world");
+
+S.o.p(s1);    //  hello

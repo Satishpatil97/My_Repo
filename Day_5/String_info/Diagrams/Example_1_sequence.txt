@@ -1,0 +1,14 @@
+1) JVM checks whether there is any String object inside pool with the value "hello". Since it is not there a new String object with the value "hello" will be created in the String Pool.
+
+2) "s1" object will be created on the stack.
+
+3) "s1" will refer to the String instance inside String pool.
+
+4) when we say "String s2=new String("hello");",  a new object with the value "hello" will be created on heap ( not in the string pool )
+
+5) "s2" reference will be created on the stack.
+6) "s2" reference will refer to the String instance created on the heap.
+
+7) when we say "String s3="hello";", JVM checks whether there is a String instance with the value "hello" available inside String pool. Since the object is there inside pool, no new object will be created.
+
+8) "s3" reference will refer to the String instance inside String pool.

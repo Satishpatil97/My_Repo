@@ -1,0 +1,11 @@
+1) JVM checks whether there is String instance with the value "hello" inside String pool. Since it is not there it will be created.
+2) "s1" reference will be created on the stack.
+3) "s1" refers to the String pool instance.
+4) String class instance with the value "hello" will be created inside heap.
+5) "s2" reference will be created on the stack.
+6) "s2" refers to the heap instance.
+7) "intern()" method is called on the String instance inside heap.
+Since String instance with the value "hello" is available inside String pool, it will not be created.
+8) "s3" reference will be created on the stack.
+9) "s3" refers to the String pool instance.
+

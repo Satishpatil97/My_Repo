@@ -1,0 +1,31 @@
+What happens when you create an object?
+
+ans:- 1) instance member/s are allocated memory
+      2) constructor gets called in order to intialize instance member/s.
+
+
+what is constructor?
+
+ans:
+	Constructor is a "special member function". It is special because
+	a) it has same name that of class
+	b) it cannot have a return type as it is not expected to return anything.
+	c) it is invoked implicitly when you create an object
+
+There are 2 types of constructors in Java:
+
+a) default or no-arg constructor - it doesn't have any argument
+	e.g.  Account()
+	      {
+	      }
+
+b) parameterized constructor- it has atleast one argument
+	e.g  Account(int id,String name,double balance)
+	     {
+	     }
+
+
+What is the concept of default or no-arg constructor?
+
+ans:-  when we don't define any constructor inside the class, compiler provides "default or no-arg constructor".
+But the moment we define any constructor , compiler does not interfere ( it does not provide default or no-arg constructor)

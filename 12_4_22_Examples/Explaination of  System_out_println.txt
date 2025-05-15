@@ -1,0 +1,39 @@
+
+
+
+
+public class System
+{
+	public static PrintStream out;  // out is a static member of System class
+	// some other stuff
+}
+
+public class PrintStream
+{
+	public void print(String s)
+	{
+	}
+	public void print(Other datatypes)  // overloaded method
+	{
+	}
+	public void println(String s)
+	{
+	}
+	public void println(Other datatypes)  // overloaded method
+	{
+	}
+	// some other stuff
+}
+
+
+
+System.out.println("hello");
+
+
+("hello")  because you want to print this message
+
+println  -  is a non-static method of "PrintStream" class
+
+out.println - out is a reference of "PrintStream", that's why we use it to invoke "println()" method.
+
+System.out -  out is a static member of System class.

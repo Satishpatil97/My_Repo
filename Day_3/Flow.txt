@@ -1,0 +1,54 @@
+Eclipse demo
+
+what is Singleton
+
+Package Info
+
+Developer and Client Relationship
+	James Gosling and his team -  developers
+	we all are  -  clients
+
+How James Gosling and his team have shared different classes with us.
+how do we use them.
+
+How to create Developer-Client Application
+
+lazy_eager_resolution
+
+How_Java_Works or JVM architecture
+ArrayDemos
+
+	Array Assignments
+
+
+Eclipse Debugging
+Reusability
+
+what is inheritance
+
+Access Specifiers in Java
+	Access Specifiers Demo
+
+	Inheritance Programs
+
+
+constructor invocation in inheritance
+
+super vs this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+protected void finalize()
+
+	finalize() method is called by garbage collector just before object gets garbage collected.
+
+we can override it in order to release the resources e.g. Socket , File, Database connection etc.
+
+However it is not guaranteed when exactly object gets garbage collected. Hence u cannot rely on "finalize()" method in order to release the resources. You have to have some other alternative for that.
+
+Garbage collection cannot be forced in Java. You can request it by using 
+
+	System.gc()
+
+		or
+	Runtime.getRuntime().gc()

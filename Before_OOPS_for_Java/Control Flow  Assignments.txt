@@ -1,0 +1,47 @@
+1) accept marks from user. if marks are
+	> 75  display "Distinction"
+	> =60 and < =75 display "first class"
+	> =45 and < 60 display "second class"
+	>=35 and < 45 display "pass class"
+	<35 display "fail"
+
+2) accept a number and display whether it is divisible by 7 or not.
+
+3) accept a character and display (using if.. else ) whether it is vowel or not.
+4) accept a name and display whether its initial is vowel or not ( using switch... case)
+
+5) accept a character, if it is lower case convert it to upper case and vice-versa.
+
+6) accept 2 numbers and a character as operator ( + , - ,* , / , % ). Perform arithmetic according to the character entered.
+
+
+7) accept a number and display its table using 
+	while
+	do... while
+	for
+
+8) using for loop display 1 to 20 numbers except 13 and 16.
+
+9) accept numbers and display as long as user does not enter 0.
+
+10) accept 10 numbers and display the total.
+
+11) display all prime numbers between 3 to 30
+
+12) accept a number and display whether it is prime or not.
+
+13) using nested for loop display following :
+
+A  a
+A  b
+A  c
+
+B  a
+B  b
+B  c
+
+C  a
+C  b
+C  c
+
+

@@ -1,0 +1,12 @@
+e:\temp\faculty\Demos
+
+say u have mentioned "e:\\temp" as the main directory inside Files.find
+
+now if u give 1 as maxDepth
+it will return .txt of "temp" only
+
+if u give 2 as maxDepth
+then it will search current directory i.e. temp and "faculty" that is 2 levels it will search.
+
+if u give 3 as maxDepth 
+then it will search "temp" , "faculty" and "Demos" .

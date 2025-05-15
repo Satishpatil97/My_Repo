@@ -1,0 +1,45 @@
+State whether following conditions will return true or false.
+
+1)
+
+String s1="hello";
+String s2=new String("hello");
+String s3="hello";
+
+	if(s1==s2)   // 1
+
+	if(s1.equals(s2))  // 2
+
+	if(s1==s3)  // 3
+
+
+
+2) String s1=new String("hello");
+	String s2="hello";
+
+if(s1==s2)  //
+
+if(s1.intern()==s2)  // 
+
+
+3) 
+String s1="hello";
+String s2="hel"+"lo";
+
+if(s1==s2)  //
+
+4) 
+	String s1="hello";
+	String s2="hel";
+	String s3=s2+"lo";
+	
+	if(s1==s3) //
+
+
+5) 
+
+String s1="hello";
+		String s2="hel";
+		String s3="lo";
+		String s4=s2.concat(s3);
+		if(s1==s4)   // 

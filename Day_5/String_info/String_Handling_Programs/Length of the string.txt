@@ -1,0 +1,14 @@
+public class MyClass
+{
+	public static void main(String[] args)
+	{
+		String str="helloworld";
+		System.out.println("Length of the string using length() method\t"+str.length());
+		
+		// using character array
+		char arr[]=str.toCharArray();
+			
+		System.out.println("Length of the string using character array is\t"+arr.length);
+		
+	}
+}

@@ -1,0 +1,14 @@
+
+abstract class in java
+
+in java when u define any class with "abstract" keyword, the class becomes "abstract".
+
+abstract class can contain "abstract" as well as "non-abstract" methods.
+
+abstract methods are those which don't have a body, just a declaration.
+
+child class of an abstract class must define abstract method/s declared inside parent class.
+
+abstract class can not be instantiated as it is an incomplete class.
+incomplete class means it has at least one contract (abstract method).
+

@@ -1,0 +1,18 @@
+Number System
+
+a) Decimal system
+	0-9      10 base
+
+b) Binary system
+	0,1      2 base
+
+c) Octal system
+	(0-7)    8 base
+
+d) Hexadecimal system
+	Hexa means 16
+
+	(0-9)  A   B  C  D  E  F
+	       10 11 12 13 14 15
+			16 base
+

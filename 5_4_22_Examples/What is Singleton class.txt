@@ -1,0 +1,13 @@
+
+
+What is Singleton class?
+
+it is a class of which only one object should be created, that too inside the class itself by developer.
+
+clients or users are not allowed to create the object.
+
+the class can have non-static method/s for clients or users to invoke.
+
+
+
+

@@ -1,0 +1,219 @@
+
+
+why do we define "public" class? Is it compulsory?
+	No it's not compulsory to make a class public. However if you are a developer and are going to distribute your class to client/s, then in order to make it accessible to all the clients , you must make your class "public".
+
+
+// developer   - at a different location
+public class Student
+{
+	// data and functions
+}
+
+
+// client - at a different location
+public class Demo
+{
+	main()
+	{
+		accessed "Student" class
+	}
+}
+Case 1:
+
+class A
+{
+	p.s.v.main()
+	{
+		S.o.p("Hello");
+	}
+}
+
+how will you save above program?
+	e.g.
+
+	A.java
+
+how will we compile it?
+
+	javac A.java
+		we'll get :
+		A.class
+
+how will you execute it?
+		java A
+
+
+or
+
+I can save it as "Demo.java"
+
+how will I compile ?
+	javac Demo.java
+
+which file will I get?
+	A.class
+
+how will you execute?
+	java A
+
+
+
+
+case 2:
+
+public class A
+{
+	p.s.v.main()
+	{
+		S.o.p("Hello");
+	}
+}
+
+how will you save your file?
+ans:  you must save it by "A.java"
+
+	javac A.java
+		A.class
+
+	java A
+
+if we save above code by some other name e.g. "Demo.java"
+
+	javac Demo.java
+		compiler error :- class "A" is public and it must be inside "A.java"
+
+
+
+case 3:
+	what if we define more than one class as "public"
+
+e.g.
+	public class A
+	{
+		p.s.v.main()
+		{
+			S.o.p("Hello");
+		}
+	}
+	public class B
+	{
+	}
+
+		how will you save above code ?
+
+	if we save above code as "A.java"
+
+		javac A.java
+
+			compiler error :-  class "B" is public and it must be inside "B.java"
+
+	if we save above code as "B.java"
+		javac B.java
+			compiler error: class "A" is public and it must be inside "A.java"
+
+
+case 4:
+
+	public class A
+	{
+		p.s.v.main()
+		{
+			S.o.p("Hello");
+		}
+	}
+	class B
+	{
+	}
+
+		how will you save above code?
+			A.java
+		javac A.java
+			A.class
+			B.class
+
+		java A
+
+
+case 5:
+
+
+	public class A
+	{
+	}
+	class B
+	{
+		p.s.v.main()
+		{
+			S.o.p("Hello");
+		}
+	}
+
+		how will you save above code?
+			A.java
+		javac A.java
+			A.class
+			B.class
+
+		java B
+
+
+case 6:
+
+	class A
+	{
+	}
+	class B
+	{
+		p.s.v.main()
+		{
+			S.o.p("Hello");
+		}
+	}
+
+		how will you save above code?
+			A.java
+		javac A.java
+			A.class
+			B.class
+
+		java B
+
+			or
+		B.java
+			javac B.java
+
+				A.class
+				B.class
+			java B
+
+			or
+		Demo.java
+			javac Demo.java
+				A.class
+				B.class
+			java B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

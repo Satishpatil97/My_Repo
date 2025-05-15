@@ -1,0 +1,3 @@
+String s1=new String("hello");
+
+String s2=s1.intern();

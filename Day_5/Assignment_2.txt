@@ -1,0 +1,38 @@
+class Electronic_Appliance
+{
+	void on()
+	{
+	}
+	void off()
+	{
+	}
+}
+class Tv extends Electronic_Appliance
+{
+	void on()
+	{
+		System.out.println("Tv on");
+	}
+	void off()
+	{
+		System.out.println("Tv off");
+	}
+}
+class Washing_Machine extends Electronic_Appliance
+{
+	void on()
+	{
+		System.out.println("Washing_Machine on");
+	}
+	void off()
+	{
+		System.out.println("Washing_Machine off");
+	}
+	void fillWater()
+	{
+		System.out.println("fill required amount of water");
+	}
+}
+
+define a class Demo2
+	create an array of "Electronic_Appliance" and store objects of all the child classes inside it. Now traverse the array  and invoke "on" ,"off" and also "fillwater()" whenever "Washing_Machine" is encountered.

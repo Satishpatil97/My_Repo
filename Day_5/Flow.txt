@@ -1,0 +1,21 @@
+Refer "Inheritance Programs" folder 
+
+interface
+
+	How to relate unrelated classes using interface
+
+inheritance vs composition
+
+early binding
+
+Object class and its methods
+
+	equals and hashCode contract
+
+String class
+	immutable, String pool concept
+
+StringBuilder class - mutable
+
+Inheritance Assignments you can continue
+

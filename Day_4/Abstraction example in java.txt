@@ -1,0 +1,36 @@
+https://www.w3schools.com/java/java_abstract.asp
+
+Abstraction in Java
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+Another way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+
+
+
+Abstraction lets you focus on what the object does instead of how it does it.
+
+Ways to achieve Abstraction
+There are two ways to achieve abstraction in java
+
+Abstract class (0 to 100%)
+Interface (100%)
+
+
+https://www.softwaretestinghelp.com/what-is-abstraction-in-java/    Most imp.
+
+
+
+Abstraction is a mechanism to’ hide irrelevant details and represent only the essential features so that one can focus on important things at a time; It allows managing complex systems by concentrating on the essential features only. For example, while driving a car, a driver only knows the essential features to drive a car such as how to use clutch, brake, accelerator, gears, steering, etc., and least bothers about the internal details of the car like motor, engine, wiring, etc.
+
+Abstraction can be of two types, namely, data abstraction and control abstraction. Data abstraction means hiding the details about the data and control abstraction means hiding the implementation details. In object-oriented approach, one can abstract both data and functions. However, generally, the classes in OOP are defined in such a way that the data is hidden from the outside world and the functions form the public interface. That is, the functions of the class can be directly accessed by other functions outside the class and the hidden data can be accessed indirectly with the help of these functions.
+
+Since, the internal details of the class are hidden from the outside world, thus, data abstraction ensures security of data by preventing it from accidental changes or manipulations by other parts of the program.
+
+
+
+https://www.naukri.com/learning/articles/data-abstraction-in-java/    m.imp.
+
+https://www.youtube.com/shorts/5fIKg1whIoY
+
+https://www.youtube.com/watch?v=di5CcAp2dbw
+

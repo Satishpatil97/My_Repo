@@ -1,0 +1,140 @@
+same task and multiple data types
+
+addition needs to be done on 2 int, 2 char and 2 strings
+
+
+C programming
+
+void addInt(int a, int b)
+{
+	a+b
+}
+
+void addChar(char a,char b)
+{
+	a+b
+}
+
+void addString(char *a,char *b)
+{
+	a+b
+}
+
+
+according to object oriented programming languages:  [ C++/java/C#]
+
+void add(int a, int b)
+{
+	a+b
+}
+
+void add(char a,char b)
+{
+	a+b
+}
+
+void add(char *a,char *b)
+{
+	a+b
+}
+
+	This is called as "function overloading"
+advantage is that "caller will have to remember only one name i.e. add "
+
+
+
+
+
+create a new project
+	polymorphism_1
+
+create a class "Adder" with following functions:
+
+void add(int a, int b)
+{
+	S.o.p(a+b);
+}
+
+void add(char a,char b)
+{
+	S.o.p(a+b);
+}
+
+void add(String a,String b)
+{
+	S.o.p(a+b);
+}
+
+create one more class "AdderDemo" with "main()" function
+
+	inside main, create object of "Adder" class and invoke all its functions.
+
+
+
+
+
+
+create a project "polymorphism_2"
+
+create a class "MyWebSite"  with following functions:
+	
+	void showProducts()
+	{
+		S.o.p("showing all products");
+	}
+	void selectProducts()
+	{
+		S.o.p("allow products to be selected in the cart");
+	}
+	void payment()
+	{
+		S.o.p("Cash On Delievery");
+	}
+	void payment(String creditcardno)
+	{
+		S.o.p("Paying by credit card");
+	}
+
+create a class "MyWebSiteDemo" with "main()" function
+	create object of "MyWebSite" and invoke
+		showProducts()
+		selectProducts()
+		and
+		payment() or payment(String creditcardno)
+
+
+
+
+
+Polymorphism is an ability of an object to take multiple forms:
+
+static polymorphism  [ happens at compile time ]
+		function overloading and operator overloading
+
+dynamic polymorphism  [ happens at runtime ]
+		function overriding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

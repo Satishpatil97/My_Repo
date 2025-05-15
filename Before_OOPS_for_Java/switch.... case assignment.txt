@@ -1,0 +1,16 @@
+1) accept a number 1 or 2 or 3 or 4
+
+if 1 is entered display "add"
+    2			"modify"
+    3			"delete"
+    4			"exit"
+
+any other number is entered display "invalid choice"
+
+
+2) accept 2 numbers and a character as operator + or - or * or / or %
+
+based on these perform the arithmetic operation.
+any other character entered display "invalid choice"
+
+ 

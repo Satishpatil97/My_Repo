@@ -1,0 +1,1 @@
+in case of String there is a possibility that more than one references may refer to same object [from string pool]. here if String class is mutable what will happen is because of one reference other references will suffer. That's why String is immutable.

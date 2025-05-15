@@ -1,0 +1,9 @@
+1) JVM checks whether there is any String object inside pool with the value "hello". Since it is not there a new String object with the value "hello" will be created in the String Pool.
+
+2) "s1" object will be created on the stack.
+
+3) "s1" will refer to the String instance inside String pool.
+
+4) when we say "s1.concat()" a new object with the value "hello world" will be created on heap ( not in the string pool )
+
+5) since there is no reference referring to the String instance with the value "hello world", it will be marked for GC.

@@ -1,0 +1,33 @@
+1)Accept 5 no from user and display it's sum.
+
+2)Accept one no and print table for that no
+
+3)Accept a no from user and print the table till that no
+eg. if user enter 5 it should print table from 1 to 5 one bellow another
+eg.
+1*1=1
+1*2=2----
+2*1=2
+2*2=4---
+3*1=3
+3*2=6--
+
+
+4)print 1 to 10;
+5)print 1-10 in reverse order
+
+6) accept a 3digit no do the sum of number
+
+7)print all odd no between 1 to 25;
+
+
+9)print all even no between 1 to 25
+
+10)accept 10 No from user and count how many 
+are +ve ,-ve and 0 
+
+11) accept a character and display which vowel it is or else not a vowel [ use switch.... case ]
+
+12) accept a number and display whether it is prime or not.
+
+13) display all prime numbers from 3 to 30.

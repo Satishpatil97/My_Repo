@@ -1,0 +1,20 @@
+what happens when object is created?
+
+	a) instance members are allocated memory
+	b) constructor gets invoked
+
+
+
+
+What happens when reference goes out of scope?
+	e.g.
+
+	void main()
+	{
+		Student s1=new Student(1,"Rahul",21);
+		// some code
+	} // here  when s1 will go out of scope:
+		a) the object where "s1" was referring , will be marked for GC.
+		b) just before the object gets GC, "protected void finalized()" method will be called.
+		Java does not have "destructor". "finalized()" method gets called just before object gets garbage collected, so it can be used in order to release the resources like file, database connection, sockets etc.
+But since in java it is not sure as to when exactly object will get garbage collected, you cannot rely on "finalized" method for releasing the resources. You need have alternate mechanisms in order to release the resources. We do have alternate mechanisms to release the resources in Java.
